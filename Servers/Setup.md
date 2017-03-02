@@ -1,5 +1,5 @@
 # Server Guide: From Boot to Operation
-Contents:
+
 * [Server OS installation and consolidation](#os-install)
 * [Multi User Management setup](#user-management)
 * [Software Installation](#software-install)
