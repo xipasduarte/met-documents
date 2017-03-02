@@ -44,12 +44,12 @@ Software that is system based, meaning, it lives in ubuntu repositories and is n
 4. Install MPICH2:
     `sudo apt-get install mpich2 mpich2-doc libcr-dev`
 5. Install DLPOLY width default fftw and PARallel mode using MPICH2:
-5.1. Copy MakePAR in the `build/` directory to the `source/` directory.
-5.2. Rename MakePAR in the `source/` directory to Makefile.
-5.3. Compile: `make gfortran`.
+    1. Copy MakePAR in the `build/` directory to the `source/` directory.
+    2. Rename MakePAR in the `source/` directory to Makefile.
+    3. Compile: `make gfortran`.
 6. Install fftw:
-6.1. `./configure --enable-float --enable-threads --prefix=/home/$HOSTNAME/software/fftw/fftw-x.x.x/prog-threads`
-6.2. `make && make install`
+    1. `./configure --enable-float --enable-threads --prefix=/home/$HOSTNAME/software/fftw/fftw-x.x.x/prog-threads`
+    2. `make && make install`
 7. Install Gromacs
 
 *Environment Variable Declaration*
